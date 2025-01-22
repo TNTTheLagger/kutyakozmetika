@@ -5,8 +5,8 @@ use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
 Route::get('/', function () {
-    return Inertia::render('main');
-})->name('main');
+    return Inertia::render('App');
+})->name('App');
 
 
 //Route::get('/', function () {
